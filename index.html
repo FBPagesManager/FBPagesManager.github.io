@@ -56,7 +56,13 @@
 	}
 
 	/* App Feature List - define custom feature icons here -  */
-	ul.featurelist li.BulletImage { background-image: url(images/listcircle.png);}
+	ul.featurelist li.UiImage { background-image: url(images/features/ui.png);}
+	ul.featurelist li.StatusImage { background-image: url(images/features/status.png);}
+	ul.featurelist li.MessageImage { background-image: url(images/features/message.png);}
+	ul.featurelist li.PhotoImage { background-image: url(images/features/photo.png);}
+	ul.featurelist li.CommentImage { background-image: url(images/features/comment.png);}
+	ul.featurelist li.InsightsImage { background-image: url(images/features/insights.png);}
+	ul.featurelist li.MoreImage { background-image: url(images/features/more.png);}
 	
 	ul.footerlist li.TranslateImage { background-image: url(images/branding/footericons/translate.png);}
 	ul.footerlist li.ContactImage { background-image: url(images/branding/footericons/contact.png);}
@@ -144,13 +150,14 @@
 			<div id="features" class="six columns omega">
 				<h2>Features</h2>
 <!--	[[9]]	# App Feature List #		-->	
-				<ul class="featurelist">				
-					<li class="BulletImage">Responsive, mobile-friendly layout</li>
-					<li class="BulletImage">Fully configurable branding [<a href="http://www.findapad.biz">Example Site</a>]</li>
-					<li class="BulletImage">Twitter feed and follow button</li>
-					<li class="BulletImage">Smooth jQuery Screenshot slider</li>
-					<li class="BulletImage">Just add your own content!</li>
-					<li class="BulletImage"><a href="http://wp7appsite.codeplex.com/">Download from CodePlex</a></li>
+				<ul class="featurelist">	
+					<li class="UiImage">Simple and elegant user interface</li>
+					<li class="StatusImage">Post photos, status or links</li>
+					<li class="MessageImage">View and reply all your user messages</li>
+					<li class="PhotoImage">Manage your albums directly from your phone</li>
+					<li class="CommentImage">Comment, Like and Share only one click away </li>
+					<li class="InsightsImage">Be on track with all your pages important insights</li>
+					<li class="MoreImage">And more features to help you manage your pages</li>
 				</ul>
 <!--	[[10]]	# User Reviews & Quotes #		-->	
 				<blockquote class="user_quote">
@@ -187,7 +194,7 @@
 				<li class="TranslateImage"><a href="https://fbpagesmanager.oneskyapp.com/collaboration/project?id=6945">Help us translate</a></li>
 				<li class="ContactImage"> <a href="https://www.facebook.com/messages/PagesManagerWP">Contact (via Facebook)</a></li>
 				<li class="ContactImage"> <a href="mailto:wpfacebookpages@gmail.com">Contact (via email)</a></li>
-				<li class="SourceImage"> <a href="https://github.com/ImaginationOverflow/pagesmanagerwp/tree/gh-pages">Site source</a></li>
+				<li class="SourceImage"> <a href="https://github.com/FBPagesManager/FBPagesManager.github.io">Site source</a></li>
 				
 			</ul>
 		</div>
@@ -259,6 +266,17 @@ UserVoice.push(['showTab', 'classic_widget', {
   tab_position: 'middle-right',
   tab_inverted: false
 }]);
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41424791-2', 'imaginationoverflow.com');
+  ga('send', 'pageview');
+
 </script>
 
 </body>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+<!--	[[1]]	# App title #		-->	
+	<title>FB Pages Manager</title>
+	<meta name="description" content="FB Pages Manager is a beautiful Windows Phone app that you can use to manage all your Facebook pages">
+	<meta name="author" content="Diogo Cardoso>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
+	
+	<link rel="stylesheet" href="stylesheets/base.min.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<style type="text/css">
+
+/* 	[[3]] #Windows Phone App Website Branding Styles */
+
+	/* Text and Background colour */
+	body {
+		color: #000;
+		background-color:#3b5998;
+	}
+	
+	/* Header Colours */
+	h1, h2, h3, h4, h5, h6 {color: #3b5998;}
+	
+	/* Link colour */
+	a, a:visited 
+	{
+		color: #3b5998;
+	}
+
+	/* Logo */
+	#header #logo h1 {
+		margin-top:-32px;
+		width: 250px;
+		height: 250px;
+		background: transparent url(images/branding/logo.png) no-repeat;
+	}
+
+	/* Strapline colour */
+	#header #strapline p 
+	{
+	color: #ffffff;
+	font-family: "Segoe UI Light","Segoe UI",Helvetica,Arial,sans-serif;
+	
+	}
+
+	/* App Feature List - define custom feature icons here -  */
+	ul.featurelist li.BulletImage { background-image: url(images/listcircle.png);}
+	
+	ul.footerlist li.TranslateImage { background-image: url(images/branding/footericons/translate.png);}
+	ul.footerlist li.ContactImage { background-image: url(images/branding/footericons/contact.png);}
+	ul.footerlist li.SourceImage { background-image: url(images/branding/footericons/source.png);}
+	
+	/* User Review Quote */
+	blockquote.user_quote p {color: #666;}
+
+	</style>
+
+	<link rel="shortcut icon" href="images/branding/favicon.ico">
+
+</head>
+<body>
+
+	<div id="maincontainer" class="container">
+	
+		<div class="sixteen columns" id="header">
+		
+			<div id="logo" class="four columns alpha">
+<!--	[[4]]	# App title #		-->	
+				<h1>FB Pages Manager</h1>
+			</div>
+			
+			<div id="strapline" class="six columns omega offset-by-six">
+<!--	[[5]]	# App strapline #		-->	
+				<p>A beautiful Windows Phone app to manage all your Facebook pages</p>
+			</div>
+		</div>
+		<br class="clear"/>
+		<div class="sixteen columns" id="contentcontainer">
+		
+			<div class="four columns alpha">
+				<h2>News</h2>
+				
+<!--	# Twitter Feed  #	-->		
+			<a class="twitter-timeline"  href="https://twitter.com/PagesManagerWP"  data-widget-id="379979288746799104">Tweets by @PagesManagerWP</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+			</div>
+				
+			<div id="phonescreens" class="six columns">
+			
+				<div id="slider">
+<!--	[[7]]	# App Screenshots - Replace items in this list with your own 240x400px Images #		-->	
+					<ul>				
+						<li><img src="images/screenshots/screenshot0.jpg" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot1.jpg" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot2.jpg" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot3.jpg" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot4.jpg" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot5.jpg" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot6.jpg" alt="App Screenshot" /></li>
+					</ul>
+				</div>
+				<div id="glare" ></div>
+				
+<!--	[[8]]	# App Marketplace Link - Find your app on the marketplace and insert the URL below#		-->	
+				<div id="linkscontainer" class="container">
+					<div class="downloadlink">
+						<h4> Full ($1.99) </h4>
+						<a href="http://www.windowsphone.com/s?appid=40a2e489-5479-4092-a71d-31d727b04898">
+							
+
+							<img src="images/branding/full.png" alt="Lite Version"> </img>	
+							</br>
+							<img src="images/download.png" alt="Full Version"> </img>
+						</a>
+					</div>
+					
+					<div class="downloadlink">
+						<h4> Lite (Free) </h4>
+						<a href="http://www.windowsphone.com/s?appid=9704533b-2324-4a6c-abc2-9fb8d47d0582"
+						>
+							
+							<img src="images/branding/lite.png" alt="Full Version"> </img>
+							</br>
+							<img src="images/download.png" alt="Full Version"> </img>
+						</a>
+					</div>
+				</div>
+				<br class="clear"/>
+			</div>
+			<div id="features" class="six columns omega">
+				<h2>Features</h2>
+<!--	[[9]]	# App Feature List #		-->	
+				<ul class="featurelist">				
+					<li class="BulletImage">Responsive, mobile-friendly layout</li>
+					<li class="BulletImage">Fully configurable branding [<a href="http://www.findapad.biz">Example Site</a>]</li>
+					<li class="BulletImage">Twitter feed and follow button</li>
+					<li class="BulletImage">Smooth jQuery Screenshot slider</li>
+					<li class="BulletImage">Just add your own content!</li>
+					<li class="BulletImage"><a href="http://wp7appsite.codeplex.com/">Download from CodePlex</a></li>
+				</ul>
+<!--	[[10]]	# User Reviews & Quotes #		-->	
+				<blockquote class="user_quote">
+					<p>The best (and only) Windows Phone 7 App site template I've ever used!</p>
+					<cite>Nick Harewood, App Designer</cite>
+				</blockquote>
+			</div>
+		
+		<br class="clear"/>
+			
+			
+		</div>
+
+	
+		
+	</div>
+
+
+	<br class="clear"/>
+<!--	# Footer #		-->	
+	<div class="container"  id="footer">
+		<div class="footer-element-left" >
+			<div class="fb-like-box " style="display: table-cell;" data-href="https://www.facebook.com/PagesManagerWP" data-width="292" data-height="180" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+		</div>
+						
+		<div class="footer-element-right">
+		<img style="padding-top:26px;" src="images/branding/imaginationoverflow.png"/>
+		
+		</div>
+				
+
+		<div class="footer-element-center" >
+			<ul class="footerlist">
+				<li class="TranslateImage"><a href="https://fbpagesmanager.oneskyapp.com/collaboration/project?id=6945">Help us translate</a></li>
+				<li class="ContactImage"> <a href="https://www.facebook.com/messages/PagesManagerWP">Contact (via Facebook)</a></li>
+				<li class="ContactImage"> <a href="mailto:wpfacebookpages@gmail.com">Contact (via email)</a></li>
+				<li class="SourceImage"> <a href="https://github.com/ImaginationOverflow/pagesmanagerwp/tree/gh-pages">Site source</a></li>
+				
+			</ul>
+		</div>
+		
+		
+		
+		<br class="clear"/>
+		
+	</div>
+
+	<!-- Load all the JS -->
+	<script type="text/javascript" src="javascripts/jsLoader.js"></script
+	<script type="text/javascript">
+
+	
+		
+	</script> 	
+
+	<div id="fb-root"></div>
+
+<script>
+  // Load the SDK asynchronously
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src =  "//connect.facebook.net/en_US/all.js#xfbml=1&appId=356275264482347";
+  fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+	
+	<script type="text/javascript">
+
+//	[[12]]	# Screenshot Slider options #		
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto: true, 
+				continuous: true,
+				pause: 5000,
+				controlsShow: false
+			});
+		});	
+	</script>
+
+	<!-- UserVoice JavaScript SDK (only needed once on a page) -->
+<script>(function()
+{
+var uv=document.createElement('script');
+uv.type='text/javascript';
+uv.async=true;
+uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/H0f3n8t1Hq41GyIoJiOcw.js';
+
+var s=document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(uv,s)})();
+</script>
+
+<!-- A tab to launch the Classic Widget -->
+<script>
+UserVoice = window.UserVoice || [];
+UserVoice.push(['showTab', 'classic_widget', {
+  mode: 'full',
+  primary_color: '#3b5898',
+  link_color: '#3b5898',
+  default_mode: 'support',
+  forum_id: 216992,
+  tab_label: 'Feedback & Support',
+  tab_color: '#cc6d00',
+  tab_position: 'middle-right',
+  tab_inverted: false
+}]);
+</script>
+
+</body>
+</html>
